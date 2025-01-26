@@ -31,7 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnDashBoardForm = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnBillForm = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -72,7 +72,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(84)))), ((int)(((byte)(128)))));
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.btnDashBoardForm);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.btnBillForm);
             this.panel1.Controls.Add(this.button4);
@@ -109,18 +109,19 @@
             this.button7.Text = "Ayarlar";
             this.button7.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnDashBoardForm
             // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(18, 232);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(145, 33);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Dashboard";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnDashBoardForm.BackColor = System.Drawing.Color.Transparent;
+            this.btnDashBoardForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashBoardForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDashBoardForm.ForeColor = System.Drawing.Color.White;
+            this.btnDashBoardForm.Location = new System.Drawing.Point(18, 232);
+            this.btnDashBoardForm.Name = "btnDashBoardForm";
+            this.btnDashBoardForm.Size = new System.Drawing.Size(145, 33);
+            this.btnDashBoardForm.TabIndex = 5;
+            this.btnDashBoardForm.Text = "Dashboard";
+            this.btnDashBoardForm.UseVisualStyleBackColor = false;
+            this.btnDashBoardForm.Click += new System.EventHandler(this.btnDashBoardForm_Click);
             // 
             // button6
             // 
@@ -466,7 +467,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnDashBoardForm;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnBillForm;
         private System.Windows.Forms.Button button4;
